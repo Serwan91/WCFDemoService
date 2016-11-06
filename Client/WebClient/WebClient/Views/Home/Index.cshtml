@@ -1,7 +1,33 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "ss";
 }
-
-<h2>Index</h2>
-
+<div class="container">
+    <table width="100%">
+        <tr>
+            <td><label class="carousel-caption" id="lblresult" /></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="txtname" name="txtname" value="" /></td>
+            <td><input type="button" id="btnGetMessage" name="btnGetMessage" value="Get Message" /></td>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btnGetMessage").click(function () {
+            
+            $.ajax({
+                url: "http://localhost:8085/Service.svc/WCFSampleWebHttpBinding/GetMessage/" + $("#txtname").val(),
+                dataType: 'jsonp',
+                success: function (data) {
+                    alert(data);
+                },
+                error: function (data,status, err) {
+                    debugger;
+                    alert(data);
+                }
+            });
+        });
+    })
+</script>

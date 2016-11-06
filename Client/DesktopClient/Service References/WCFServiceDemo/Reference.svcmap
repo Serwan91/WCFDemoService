@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="49552ba8-5206-4b50-9de9-fb47025b3c3c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="33ef89d4-012d-4dde-af52-a95071086859" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,9 +22,9 @@
     <MetadataSource Address="net.tcp://serwan-pc:8734/Service.svc/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ea4216a3-3229-458b-a598-b805818a7005" SourceId="1" SourceUrl="net.tcp://serwan-pc:8734/Service.svc/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="4b1560ec-d971-4208-b9da-15d5752b11aa" SourceId="1" SourceUrl="net.tcp://serwan-pc:8734/Service.svc/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="e87c61f1-8323-4e19-9486-dace59701146" SourceId="1" SourceUrl="net.tcp://serwan-pc:8734/Service.svc/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="90542fa6-4a79-4d54-a776-9edb5f80e9df" SourceId="1" SourceUrl="net.tcp://serwan-pc:8734/Service.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="03ffde6c-ab08-41ba-beed-4c40a41de45e" SourceId="1" SourceUrl="net.tcp://serwan-pc:8734/Service.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="552285af-8f0f-4e73-8bb3-57bbcd98907e" SourceId="1" SourceUrl="net.tcp://serwan-pc:8734/Service.svc/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
